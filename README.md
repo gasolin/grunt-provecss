@@ -1,4 +1,5 @@
 # grunt-provecss
+[![Build Status](https://travis-ci.org/gasolin/grunt-provecss.svg)](https://travis-ci.org/gasolin/grunt-provecss) [![Dependency Status](https://david-dm.org/gasolin/grunt-provecss.svg)](https://david-dm.org/gasolin/grunt-provecss)
 
 > grunt plugin for provecss
 
@@ -30,6 +31,7 @@ grunt.initConfig({
     },
     your_target: {
       // Target-specific file lists and/or options go here.
+      files: { 'dest': 'src'}
     },
   },
 })
@@ -37,17 +39,10 @@ grunt.initConfig({
 
 ### Options
 
-#### options.separator
-Type: `String`
-Default value: `',  '`
+#### options.files
+Type: `Dictionary`
 
-A string value that is used to do something with whatever.
-
-#### options.punctuation
-Type: `String`
-Default value: `'.'`
-
-A string value that is used to do something else with whatever else.
+A key/value pair that is used to define the source file and generated file destination.
 
 ### Usage Examples
 
@@ -59,24 +54,23 @@ grunt.initConfig({
   provecss: {
     options: {},
     files: {
-      'dest/default_options': ['src/testing', 'src/123'],
+      'dest/calc.out.css': 'src/calc.css'
     },
   },
 })
 ```
 
 #### Custom Options
-In this example, custom options are used to do something else with whatever else. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result in this case would be `Testing: 1 2 3 !!!`
+In this example, You can pass any provecss options in `options` section.
 
 ```js
 grunt.initConfig({
   provecss: {
     options: {
-      separator: ': ',
-      punctuation: ' !!!',
+      vars: true
     },
     files: {
-      'dest/default_options': ['src/testing', 'src/123'],
+      'dest/vars.out.css': 'src/vars.css'
     },
   },
 })
@@ -86,7 +80,7 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
-_(Nothing yet)_
+0.3.0 first release
 
 ## License
 Copyright (c) 2014 Fred Lin(gasolin). Licensed under the MIT license.
