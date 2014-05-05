@@ -7,15 +7,13 @@
  */
 
 'use strict';
-processor = require('provecss');
-
+var provecss = require('provecss');
 module.exports = function (grunt) {
 
   // Please see the Grunt documentation for more information regarding task
   // creation: http://gruntjs.com/creating-tasks
 
   grunt.registerMultiTask('provecss', 'grunt plugin for provecss', function () {
-
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
 //      punctuation: '.',
@@ -36,7 +34,7 @@ module.exports = function (grunt) {
       }).map(function (filepath) {
         // Read file source.
         var string =  grunt.file.read(filepath);
-        string = processor(string, options);
+        string = provecss(string, options);
         return string;
       });//.join(grunt.util.normalizelf(options.separator));
 

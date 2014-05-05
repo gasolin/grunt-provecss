@@ -10,7 +10,10 @@
     "url": "http://www.gasolin.idv.tw"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin",
+    "provecss",
+    "css",
+    "rework"
   ],
   "main": "Gruntfile.js",
   "engines": {
