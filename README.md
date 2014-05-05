@@ -1,7 +1,7 @@
 # grunt-provecss
 [![Build Status](https://travis-ci.org/gasolin/grunt-provecss.svg)](https://travis-ci.org/gasolin/grunt-provecss) [![Dependency Status](https://david-dm.org/gasolin/grunt-provecss.svg)](https://david-dm.org/gasolin/grunt-provecss)
 
-> grunt plugin for provecss
+> grunt plugin for [provecss](https://github.com/gasolin/provecss)
 
 ## Getting Started
 This plugin requires Grunt.
