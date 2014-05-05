@@ -36,18 +36,12 @@ module.exports = function (grunt) {
       default_options: {
         options: {
         },
-        files: {
-          'tmp/default_options': ['test/fixtures/calc.css']
-        }
+        files: {'tmp/default_options': 'test/fixtures/calc.css'}
       },
       custom_options: {
         options: {
-          separator: ': ',
-          punctuation: ' !!!'
         },
-        files: {
-          'tmp/custom_options': ['test/fixtures/calc.css']
-        }
+        files: {'tmp/custom_options': 'test/fixtures/calc.css'}
       }
     },
 

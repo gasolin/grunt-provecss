@@ -25,6 +25,7 @@
     }
   ],
   "dependencies": {
+    "each-async": "~0.1.1",
     "provecss": "~0.3.0"
   },
   "devDependencies": {
