@@ -1,6 +1,6 @@
 {
   "name": "grunt-provecss",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "grunt plugin for provecss",
   "homepage": "https://github.com/gasolin/grunt-provecss",
   "repository": "https://github.com/gasolin/grunt-provecss.git",
@@ -26,7 +26,7 @@
   ],
   "dependencies": {
     "each-async": "~0.1.1",
-    "provecss": "~0.4.0"
+    "provecss": "~0.4.1"
   },
   "devDependencies": {
     "grunt-contrib-clean": "~0.5.0",
