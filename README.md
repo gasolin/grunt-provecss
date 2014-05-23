@@ -1,5 +1,5 @@
 # grunt-provecss
-[![Build Status](https://travis-ci.org/gasolin/grunt-provecss.svg)](https://travis-ci.org/gasolin/grunt-provecss) [![Dependency Status](https://david-dm.org/gasolin/grunt-provecss.svg)](https://david-dm.org/gasolin/grunt-provecss)
+[![Build Status](https://travis-ci.org/gasolin/grunt-provecss.svg)](https://travis-ci.org/gasolin/grunt-provecss) [![NPM version](https://badge.fury.io/js/grunt-provecss.svg)](http://badge.fury.io/js/grunt-provecss) [![Dependency Status](https://david-dm.org/gasolin/grunt-provecss.svg)](https://david-dm.org/gasolin/grunt-provecss)
 
 > grunt plugin for [provecss](https://github.com/gasolin/provecss)
 
